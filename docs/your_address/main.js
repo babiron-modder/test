@@ -11,3 +11,7 @@
 	
 	
 })();
+
+/* $(document).ready(function() {
+	$('#target').load('https://www.google.co.jp/search?q=%E3%81%82');
+}); */
