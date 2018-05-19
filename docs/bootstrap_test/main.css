@@ -1,0 +1,7 @@
+
+img{
+	image-rendering: pixelated;
+	image-rendering: -webkit-crisp-edges;
+	image-rendering: -moz-crisp-edges;
+	-ms-interpolation-mode: nearest-neighbor;
+}﻿

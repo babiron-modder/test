@@ -1,0 +1,233 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+		<link rel="stylesheet" href="main.css">
+		<script src="main.js"></script>
+		<title>bootstrapのテスト</title>
+	</head>
+	<body>
+		<div class="jumbotron bg-info">
+			<h1>bootstrapのテスト</h1>
+			<div class="container-fluid">
+				<p>bootstrapをテストするために作ったページ</p>
+			</div>
+		</div>
+		<div class="container-fluid">
+
+			<div class="container-fluid">
+				<h2>グレーのエリア</h2>
+				<div class="jumbotron">
+					hoge
+				</div>
+				<div class="container-fluid">
+					<pre class="border"><code>&lt;div class="jumbotron"&gt;
+  hoge
+&lt;/div&gt;</code></pre>
+				</div>
+			</div>
+
+			<div class="container-fluid mt-4">
+				<h2>このdivのエリア</h2>
+				<div class="container-fluid">
+					<pre class="border"><code>&lt;div class="container-fluid"&gt;&lt;/div&gt;</code></pre>
+				</div>
+			</div>
+
+			<div class="container mt-4">
+				<h2>このdivエリア</h2>
+				<div class="container">
+					<pre class="border"><code>&lt;div class="container"&gt;&lt;/div&gt;</code></pre>
+				</div>
+			</div>
+
+			<div class="container-fluid mt-4">
+				<h2>グリッド</h2>
+				<div class="row">
+					<div class="col mx-4 my-2 border">
+						1
+					</div>
+					<div class="col mx-4 my-2 border">
+						2
+					</div>
+					<div class="col mx-4 my-2 border">
+						3
+					</div>
+					<div class="col mx-4 my-2 border">
+						4
+					</div>
+				</div>
+				<div class="container-fluid">
+					<pre class="border"><code>&lt;div class="row"&gt;
+  &lt;div class="col mx-4 my-2 border"&gt;
+    1
+  &lt;/div&gt;
+  &lt;div class="col mx-4 my-2 border"&gt;
+    2
+  &lt;/div&gt;
+  &lt;div class="col mx-4 my-2 border"&gt;
+    3
+  &lt;/div&gt;
+  &lt;div class="col mx-4 my-2 border"&gt;
+    4
+  &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+				</div>
+			</div>
+
+			<div class="container-fluid mt-4">
+				<h2>margin, padding</h2>
+				<div class="container-fluid">
+					<p>
+					<a href="https://getbootstrap.com/docs/4.1/utilities/spacing/">https://getbootstrap.com/docs/4.1/utilities/spacing/</a></p>
+				</div>
+			</div>
+
+			<div class="container-fluid mt-4">
+				<h2>ボーダー</h2>
+				<div class="container-fluid">
+					<p class="border">border</p>
+					<p class="border-top">border-top</p>
+					<p class="border-left">border-left</p>
+					<p class="border-right">border-right</p>
+					<p class="border-bottom">border-bottom</p>
+					<p class="border border-primary">border border-primary</p>
+					<p class="border border-secondary">border border-secondary</p>
+					<p class="border border-success">border border-success</p>
+					<p class="border border-danger">border border-danger</p>
+					<p class="border border-warning">border border-warning</p>
+					<p class="border border-info">border border-info</p>
+					<p class="border border-light">border border-light</p>
+					<p class="border border-dark">border border-dark</p>
+					<p class="border border-white">border border-white</p>
+					<p class="border rounded">border rounded</p>
+					<p class="border rounded-circle">border rounded-circle</p>
+				</div>
+			</div>
+
+			<div class="container-fluid mt-4">
+				<h2>ボタン</h2>
+				<div class="container-fluid">
+					<button type="button" class="btn btn-primary">Primary</button>
+					<button type="button" class="btn btn-secondary">Secondary</button>
+					<button type="button" class="btn btn-success">Success</button>
+					<button type="button" class="btn btn-danger">Danger</button>
+					<button type="button" class="btn btn-warning">Warning</button>
+					<button type="button" class="btn btn-info">Info</button>
+					<button type="button" class="btn btn-light">Light</button>
+					<button type="button" class="btn btn-dark">Dark</button>
+
+					<button type="button" class="btn btn-link">Link</button>
+					<pre class="border"><code>&lt;button type="button" class="btn btn-*****"&gt;&lt;/div&gt;</code></pre>
+				</div>
+			</div>
+
+			<div class="container-fluid mt-4">
+				<h2>カード</h2>
+				<div class="container-fluid">
+					<div class="row">
+						<div class="card col mx-3">
+							<img class="card-img-top" src="font.png" alt="Card image cap">
+							<div class="card-body">
+								<h5 class="card-title">Card 1</h5>
+								<p class="card-text">hoge</p>
+								<a href="#" class="btn btn-primary">Go somewhere</a>
+							</div>
+						</div>
+						<div class="card col mx-3">
+							<img class="card-img-top" src="font.png" alt="Card image cap">
+							<div class="card-body">
+								<h5 class="card-title">Card 2</h5>
+								<p class="card-text">hoge</p>
+								<a href="#" class="btn btn-primary">Go somewhere</a>
+							</div>
+						</div>
+						<div class="card col mx-3">
+							<img class="card-img-top" src="font.png" alt="Card image cap">
+							<div class="card-body">
+								<h5 class="card-title">Card 3</h5>
+								<p class="card-text">hoge</p>
+								<a href="#" class="btn btn-primary">Go somewhere</a>
+							</div>
+						</div>
+						<div class="card col mx-3">
+							<img class="card-img-top" src="font.png" alt="Card image cap">
+							<div class="card-body">
+								<h5 class="card-title">Card 4</h5>
+								<p class="card-text">hoge</p>
+								<a href="#" class="btn btn-primary">Go somewhere</a>
+							</div>
+						</div>
+					</div>
+
+					<pre class="border"><code>&lt;div class="card"&gt;
+  &lt;img class="card-img-top" src="****" alt="no-image"&gt;
+  &lt;div class="card-body"&gt;
+    &lt;h5 class="card-title"&gt;card&lt;/h5&gt;
+    &lt;p class="card-text"&gt;text&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+				</div>
+			</div>
+
+			<div class="container-fluid mt-4">
+				<h2>アラート</h2>
+				<div class="container-fluid">
+					<div class="alert alert-primary" role="alert" id="al">
+					  アラート
+					</div>
+					<pre class="border"><code>&lt;div class="alert alert-primary" role="alert"&gt;
+  アラート
+&lt;/div&gt;</code></pre>
+				</div>
+			</div>
+
+			<div class="container-fluid mt-4">
+				<h2>ナビゲーション</h2>
+				<div class="container-fluid">
+					<ul class="nav nav-tabs">
+					  <li class="nav-item">
+					    <a class="nav-link active" href="#">Active</a>
+					  </li>
+					  <li class="nav-item">
+					    <a class="nav-link" href="#">Link</a>
+					  </li>
+					  <li class="nav-item">
+					    <a class="nav-link" href="#">Link</a>
+					  </li>
+					  <li class="nav-item">
+					    <a class="nav-link disabled" href="#">Disabled</a>
+					  </li>
+					</ul>
+					<pre class="border"><code>&lt;div class="container-fluid"&gt;&lt;/div&gt;</code></pre>
+				</div>
+			</div>
+
+
+		</div>
+		<hr>
+		<div class="container-fluid">
+			<h2>やりたかったこと</h2>
+			<div class="container-fluid">
+				<p>bootstrapのテストがしたかっただけ</p>
+				<p>ふつうはbootstrapのみで使わないのでは？なんて思ったり...</p>
+			</div>
+			<h2>結果</h2>
+			<div class="container-fluid">
+				<p>縦の間隔ってどうするの？いちいちmt4しなきゃいけないのかな...</p>
+				<p>containerのネスト使いすぎでは？</p>
+			</div>
+		</div>
+		<hr>
+		<p class="align-middle">2018/5/19</p>
+
+	</body>
+</html>
