@@ -1,0 +1,13 @@
+body{
+  margin: 0px;
+}
+
+.my-card {
+  height: 350px;
+  width: 350px;
+}
+
+.test-content{
+  padding-left: 50px;
+  padding-right: 50px;
+}

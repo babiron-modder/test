@@ -1,0 +1,107 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+		<link rel="stylesheet" href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css">
+		<link rel="stylesheet" href="main.css">
+	</head>
+	<body class="mdc-typography">
+		<div id="root">
+			<header class="mdc-top-app-bar" style="top: 0px">
+			  <div class="mdc-top-app-bar__row">
+			    <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
+			      <a href="#" class="material-icons mdc-top-app-bar__navigation-icon menu">menu</a>
+			      <span class="mdc-top-app-bar__title">Material Components for the Web のテスト</span>
+			    </section>
+			    <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-end" role="toolbar">
+			      <a href="#" class="material-icons mdc-top-app-bar__action-item" aria-label="Bookmark this page" alt="Bookmark this page">bookmark</a>
+			    </section>
+			  </div>
+			</header>
+
+			<aside class="mdc-drawer mdc-drawer--temporary mdc-typography">
+			  <nav class="mdc-drawer__drawer">
+			    <header class="mdc-drawer__header">
+			      <div class="mdc-drawer__header-content">
+			        Header here
+			      </div>
+			    </header>
+			    <nav id="icon-with-text-demo" class="mdc-drawer__content mdc-list">
+			      <a class="mdc-list-item mdc-list-item--activated" href="#">
+			        <i class="material-icons mdc-list-item__graphic" aria-hidden="true">inbox</i>Inbox
+			      </a>
+			      <a class="mdc-list-item" href="#">
+			        <i class="material-icons mdc-list-item__graphic" aria-hidden="true">star</i>Star
+			      </a>
+			    </nav>
+			  </nav>
+			</aside>
+
+			<div class="mdc-top-app-bar--fixed-adjust test-content">
+
+				<div class="mdc-layout-grid">
+				  <div class="mdc-layout-grid__inner">
+				    <div class="mdc-layout-grid__cell">
+							<div class="mdc-card">
+							  <div class="mdc-card__media mdc-card__media--square">
+							    <div class="mdc-card__media-content">Title</div>
+							  </div>
+							  <!-- ... content ... -->
+							  <div class="mdc-card__actions">
+							    <div class="mdc-card__action-buttons">
+							      <button class="mdc-button mdc-card__action mdc-card__action--button">Action 1</button>
+							      <button class="mdc-button mdc-card__action mdc-card__action--button">Action 2</button>
+							    </div>
+							    <div class="mdc-card__action-icons">
+							      <i class="material-icons mdc-card__action mdc-card__action--icon" tabindex="0" role="button" title="Share">share</i>
+							      <i class="material-icons mdc-card__action mdc-card__action--icon" tabindex="0" role="button" title="More options">more_vert</i>
+							    </div>
+							  </div>
+							</div>
+						</div>
+				    <div class="mdc-layout-grid__cell"></div>
+				    <div class="mdc-layout-grid__cell"></div>
+				  </div>
+				</div>
+
+				<!--
+				  This will position the FAB in the bottom-right corner.
+				  Modify to fit your design's requirements.
+				-->
+				<style>
+				.app-fab--absolute {
+				  position: fixed;
+				  bottom: 1rem;
+				  right: 1rem;
+				}
+
+				@media(min-width: 1024px) {
+				   .app-fab--absolute {
+				    bottom: 1.5rem;
+				    right: 1.5rem;
+				  }
+				}
+				</style>
+				<button class="mdc-fab material-icons app-fab--absolute" aria-label="Favorite">
+				  <span class="mdc-fab__icon">
+				    favorite
+				  </span>
+				</button>
+
+				<h2>やりたかったこと</h2>
+				<p><a href="https://material-components.github.io/material-components-web-catalog/#/">Material Copmonents for the Web</a>を使ってみたかった</p>
+				<p>こういうフレームワークはCSSを書く量を減らしてくれるものとして有能だと気が付いた</p>
+				<h2>結果</h2>
+				<p>使いやすいし結構よさげかもしれない</p>
+				<p></p>
+			</div>
+		</div>
+
+		<script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+		<script>mdc.autoInit()</script>
+		<script src="main.js"></script>
+	</body>
+</html>
